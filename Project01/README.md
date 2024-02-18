@@ -12,4 +12,4 @@ No code project.
 
 ### Parallel Circuit
 
-![finished_parallel](./assets/finished_parralel.png)
+![finished_parallel](./assets/finished_parallel.png)
