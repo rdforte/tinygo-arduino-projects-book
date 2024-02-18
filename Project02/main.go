@@ -21,11 +21,7 @@ func main() {
 	for {
 		switchStateIsOn := pin2.Get()
 
-		if !switchStateIsOn {
-			pin3.Set(true)
-			pin4.Set(false)
-			pin5.Set(false)
-		} else {
+		if switchStateIsOn {
 			pin3.Set(false)
 			pin4.Set(false)
 			pin5.Set(true)
@@ -36,6 +32,10 @@ func main() {
 			pin5.Set(false)
 
 			time.Sleep(time.Second)
+		} else {
+			pin3.Set(true)
+			pin4.Set(false)
+			pin5.Set(false)
 		}
 	}
 }
