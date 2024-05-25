@@ -28,6 +28,8 @@ func main() {
 	A0 := machine.ADC{Pin: machine.ADC0}
 
 	for {
+		// ADC is read in using 16-bit resolution
+		// To get the voltage, we divide the ADC value by the maximum value of 16-bit ADC (65535) and multiply by 5V
 		voltage := float64(A0.Get()) / float64(math.MaxUint16) * 5
 		temperatureCelcius := (voltage - 0.5) * 100
 		println(int(temperatureCelcius)) // truncate degree
