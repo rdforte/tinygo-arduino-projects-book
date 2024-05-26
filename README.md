@@ -1,8 +1,10 @@
 # Arduino Projects Book
 
-in order to run in NVim we use [tinygo.nvim](https://github.com/pcolladosoto/tinygo.nvim)
+All projects in this Repo are based off [Arduino Starter Kit Multi-language](https://store-usa.arduino.cc/products/arduino-starter-kit-multi-language?selectedStore=us)
 
 ## Setup
+
+in order to run in NVim we use [tinygo.nvim](https://github.com/pcolladosoto/tinygo.nvim)
 
 [Tinygo getting started MacOS](https://tinygo.org/getting-started/install/macos/)
 
