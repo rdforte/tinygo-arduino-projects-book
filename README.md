@@ -5,7 +5,7 @@ All projects in this Repo are based off [Arduino Starter Kit Multi-language](htt
 ## Setup
 
 in order to run in NVim we use [tinygo.nvim](https://github.com/pcolladosoto/tinygo.nvim).
-Ther is also a similar plugin/extension for VSCode [tinygo vscode extension](https://marketplace.visualstudio.com/items?itemName=tinygo.vscode-tinygo)
+There is also a similar plugin/extension for VSCode [tinygo vscode extension](https://marketplace.visualstudio.com/items?itemName=tinygo.vscode-tinygo)
 
 [Tinygo getting started MacOS](https://tinygo.org/getting-started/install/macos/)
 
