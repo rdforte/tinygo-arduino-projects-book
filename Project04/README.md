@@ -17,8 +17,6 @@ tinygo monitor -baudrate=9600
 ## Images
 
 ![finished](./assets/finished.png)
-![red](./assets/blue.png)
-![blue](./assets/red.png)
 
 ## References
 
