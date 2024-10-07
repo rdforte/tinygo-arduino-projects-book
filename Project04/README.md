@@ -1,16 +1,27 @@
-# LOVE-O-METER
+# COLOR MIXING LAMP
 
 ## Monitor Serial Output
+
+### Flash
+
+```
+tinygo flash -target=arduino -port=/dev/tty.usbmodem1401 Project04/main.go
+```
+
+### Monitor Serial Output
 
 ```
 tinygo monitor -baudrate=9600
 ```
 
-The default baud rate of the serial port for almost all microcontrollers supported by TinyGo is 115200.
-The exceptions are boards using the AVR processors (Arduino Nano, Arduino Mega 1280, Arduino Mega 2560).
-
 ## Images
 
 ![finished](./assets/finished.png)
+![red](./assets/blue.png)
+![blue](./assets/red.png)
 
 ## References
+
+- [arduino pins reference](https://tinygo.org/docs/reference/microcontrollers/arduino/)
+- [Basics of PWM (Pulse Width Modulation)](https://docs.arduino.cc/learn/microcontrollers/analog-output/)
+- [Using PWM TingGo Tutorial](https://tinygo.org/docs/tutorials/pwm/)
